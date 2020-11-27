@@ -1,10 +1,10 @@
 class Util:
     
-    def stringToFloat(self,frac_str):
+    def stringToFloat(self):
         try:
-            return float(frac_str)
+            return float(self)
         except ValueError:
-            num, denom = frac_str.split('/')
+            num, denom = self.split('/')
             try:
                 leading, num = num.split(' ')
                 whole = float(leading)
