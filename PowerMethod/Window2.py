@@ -19,5 +19,6 @@ tab1_layout = [[sg.Menu(menu_def, tearoff=True)],
     
     [sg.Radio('Random Stochastic Matrix     ', "key1", default=True, size=(20,1)), sg.Radio('Comma-Separated Values (CSV) File ', "key1")]], title='Select the matrix source', relief=sg.RELIEF_SUNKEN)],
     [sg.Text('_' * 80)],
+    [sg.Text('Number of Iterations: ', size=(15, 1)),  sg.Input(key='txt1', size=(3,1))],
 
 ]
