@@ -21,5 +21,6 @@ tab1_layout = [[sg.Menu(menu_def, tearoff=True)],
     [sg.Text('_' * 80)],
     [sg.Text('Number of Iterations: ', size=(15, 1)),  sg.Input(key='txt1', size=(3,1))],
     [sg.Text('Square Matrix Size: ', size=(15, 1)),  sg.Input(key='txt2', size=(3,1))],
+    [sg.Button('Execute')],  
 
 ]
