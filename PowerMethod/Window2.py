@@ -31,9 +31,9 @@ tab1_layout = [[sg.Menu(menu_def, tearoff=True)],
     [sg.Text('_' * 80)], 
 
     ]
-tab2_layout =  [[sg.T('This is inside tab 2')]]
+tab2_layout =  [[sg.T('Este es el manua de usuario')]]
 
-layout = [[sg.TabGroup([[sg.Tab('Tab 1', tab1_layout), sg.Tab('Tab 2', tab2_layout)]])],
+layout = [[sg.TabGroup([[sg.Tab('Control Panel', tab1_layout), sg.Tab('User Manual', tab2_layout)]])],
               ]
 
 window = sg.Window('Power Method for Page Rank', layout)
