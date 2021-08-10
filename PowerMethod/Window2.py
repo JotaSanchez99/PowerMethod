@@ -32,3 +32,11 @@ tab1_layout = [[sg.Menu(menu_def, tearoff=True)],
 
     ]
 tab2_layout =  [[sg.T('This is inside tab 2')]]
+
+layout = [[sg.TabGroup([[sg.Tab('Tab 1', tab1_layout), sg.Tab('Tab 2', tab2_layout)]])],
+              ]
+
+window = sg.Window('Power Method for Page Rank', layout)
+
+event, values = window.read()
+window.close()
