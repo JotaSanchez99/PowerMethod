@@ -23,4 +23,8 @@ tab1_layout = [[sg.Menu(menu_def, tearoff=True)],
     [sg.Text('Square Matrix Size: ', size=(15, 1)),  sg.Input(key='txt2', size=(3,1))],
     [sg.Button('Execute')],  
 
+
+    [sg.Text('_' * 80)],
+    [sg.Text('Choose A File', size=(25, 1))],
+
 ]
