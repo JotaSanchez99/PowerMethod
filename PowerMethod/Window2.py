@@ -26,5 +26,6 @@ tab1_layout = [[sg.Menu(menu_def, tearoff=True)],
 
     [sg.Text('_' * 80)],
     [sg.Text('Choose A File', size=(25, 1))],
+    [sg.Text('Your File: ', size=(10, 1), auto_size_text=False, justification='right'),
 
 ]
